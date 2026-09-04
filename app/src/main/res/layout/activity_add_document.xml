@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F7FA"
+    tools:context=".AddDocumentActivity">
+
+    <TextView
+        android:id="@+id/tvAddDocumentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Document"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1A73E8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/tvSelectDocument"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Select Document Type"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        app:layout_constraintTop_toBottomOf="@id/tvAddDocumentTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:id="@+id/btnAadhaar"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Aadhaar Card"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tvSelectDocument"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnPan"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="PAN Card"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/btnAadhaar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnDrivingLicense"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Driving Licence"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/btnPan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnCertificate"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Certificate"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/btnDrivingLicense"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

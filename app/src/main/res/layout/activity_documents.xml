@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F7FA"
+    tools:context=".DocumentsActivity">
+
+    <TextView
+        android:id="@+id/tvDocumentsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Documents"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1A73E8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/tvDocumentsSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Your digital documents"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        app:layout_constraintTop_toBottomOf="@id/tvDocumentsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvAadhaar"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:text="🪪  Aadhaar Card"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:textColor="#222222"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/tvDocumentsSubtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tvPan"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:text="📄  PAN Card"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:textColor="#222222"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/tvAadhaar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/tvDrivingLicense"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:text="🚗  Driving Licence"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:textColor="#222222"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/tvPan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/tvCertificates"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:text="🎓  Certificates"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:padding="20dp"
+        android:textColor="#222222"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/tvDrivingLicense"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnAddDocument"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="ADD DOCUMENT"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tvCertificates"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
