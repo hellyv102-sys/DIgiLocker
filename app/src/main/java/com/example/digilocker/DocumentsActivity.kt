@@ -1,8 +1,9 @@
 package com.example.digilocker
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class DocumentsActivity : AppCompatActivity() {
@@ -11,14 +12,43 @@ class DocumentsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_documents)
 
+        val tvAadhaar = findViewById<TextView>(R.id.tvAadhaar)
+        val tvPan = findViewById<TextView>(R.id.tvPan)
+        val tvDrivingLicense = findViewById<TextView>(R.id.tvDrivingLicense)
+        val tvCertificates = findViewById<TextView>(R.id.tvCertificates)
         val btnAddDocument = findViewById<Button>(R.id.btnAddDocument)
 
-        btnAddDocument.setOnClickListener {
-            Toast.makeText(
-                this,
-                "Add Document feature coming soon!",
-                Toast.LENGTH_SHORT
-            ).show()
+        // Aadhaar Card
+        tvAadhaar.setOnClickListener {
+            openDocument("Aadhaar Card")
         }
+
+        // PAN Card
+        tvPan.setOnClickListener {
+            openDocument("PAN Card")
+        }
+
+        // Driving Licence
+        tvDrivingLicense.setOnClickListener {
+            openDocument("Driving Licence")
+        }
+
+        // Certificates
+        tvCertificates.setOnClickListener {
+            openDocument("Certificates")
+        }
+
+        // Add Document
+        btnAddDocument.setOnClickListener {
+            // We will connect this later with Add Document screen
+        }
+    }
+
+    private fun openDocument(documentName: String) {
+        val intent = Intent(this, DocumentDetailsActivity::class.java)
+
+        intent.putExtra("documentName", documentName)
+
+        startActivity(intent)
     }
 }
