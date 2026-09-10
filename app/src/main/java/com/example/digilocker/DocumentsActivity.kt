@@ -38,17 +38,16 @@ class DocumentsActivity : AppCompatActivity() {
             openDocument("Certificates")
         }
 
-        // Add Document
+        // Add Document Button
         btnAddDocument.setOnClickListener {
-            // We will connect this later with Add Document screen
+            val intent = Intent(this, AddDocumentActivity::class.java)
+            startActivity(intent)
         }
     }
 
     private fun openDocument(documentName: String) {
         val intent = Intent(this, DocumentDetailsActivity::class.java)
-
         intent.putExtra("documentName", documentName)
-
         startActivity(intent)
     }
 }

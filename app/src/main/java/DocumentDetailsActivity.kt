@@ -45,7 +45,7 @@ class DocumentDetailsActivity : AppCompatActivity() {
                 tvDocumentName.text = "Driving Licence"
                 tvDocumentNumber.text = "Document Number: GJ0123456789"
                 tvStatus.text = "Status: Verified"
-                imgDocument.setImageResource(R.drawable.liecence)
+                imgDocument.setImageResource(R.drawable.licence)
             }
 
             "Certificates" -> {
