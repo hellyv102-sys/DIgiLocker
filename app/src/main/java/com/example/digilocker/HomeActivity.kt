@@ -21,18 +21,43 @@ class HomeActivity : AppCompatActivity() {
             insets
         }
 
-        // My Documents
         val tvMyDocuments = findViewById<TextView>(R.id.tvMyDocuments)
-
-        // Add Document
         val tvAddDocument = findViewById<TextView>(R.id.tvAddDocument)
+        val tvProfile = findViewById<TextView>(R.id.tvProfile)
 
+        // Open My Documents
         tvMyDocuments.setOnClickListener {
-            startActivity(Intent(this, DocumentsActivity::class.java))
+            val intent = Intent(this, DocumentsActivity::class.java)
+            startActivity(intent)
         }
 
+        // Open Add Document
         tvAddDocument.setOnClickListener {
-            startActivity(Intent(this, AddDocumentActivity::class.java))
+            val intent = Intent(this, AddDocumentActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Open Profile
+        tvProfile.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
+        val tvSettings = findViewById<TextView>(R.id.tvSettings)
+        val tvHelp = findViewById<TextView>(R.id.tvHelp)
+        val tvLogout = findViewById<TextView>(R.id.tvLogout)
+
+        tvSettings.setOnClickListener {
+            startActivity(Intent(this, SettingsActivity::class.java))
+        }
+
+        tvHelp.setOnClickListener {
+            startActivity(Intent(this, HelpActivity::class.java))
+        }
+
+        tvLogout.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
         }
     }
+
 }

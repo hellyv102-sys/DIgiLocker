@@ -24,7 +24,16 @@
         <activity android:name=".DocumentsActivity" android:exported="false"/>
         <activity android:name=".DocumentDetailsActivity" android:exported="false"/>
         <activity android:name=".AddDocumentActivity" android:exported="false"/>
-
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
