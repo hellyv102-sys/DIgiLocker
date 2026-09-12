@@ -44,7 +44,7 @@ DigiLocker is an Android application where users can keep their important docume
 
 ## 📂 Project Structure
 
-```text
+
 DIgiLocker/
 │── app/
 │   ├── src/
