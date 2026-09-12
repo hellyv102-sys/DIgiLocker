@@ -2,19 +2,18 @@
 
 A simple **DigiLocker Android Application** developed using **Kotlin** in **Android Studio** for the **Mobile Application Development (MAD)** subject.
 
----
+
 
 ## 🎯 Aim
 
 To develop a DigiLocker application that allows users to digitally store and manage important personal documents through a simple and user-friendly Android application.
 
----
 
 ## 📖 Project Overview
 
 DigiLocker is an Android application where users can keep their important documents in one place. Users can view document details, upload document images, and manage documents easily using a clean interface.
 
----
+
 
 ## ✨ Features
 
@@ -30,7 +29,7 @@ DigiLocker is an Android application where users can keep their important docume
 - 👤 Profile Screen
 - 📱 Simple and Minimal User Interface
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -42,7 +41,6 @@ DigiLocker is an Android application where users can keep their important docume
 - Material Design Components
 - Intent Navigation
 
----
 
 ## 📂 Project Structure
 
@@ -66,9 +64,9 @@ DIgiLocker/
 │   │   │   └── AndroidManifest.xml
 │── screenshots/
 │── README.md
-```
 
----
+
+
 
 ## 📱 Application Screens
 
@@ -81,11 +79,10 @@ DIgiLocker/
 | Add Document | Upload a new document with image preview. |
 | Profile Screen | Displays user profile information. |
 
----
 
 # 📸 Output Screenshots
 
-> Create a folder named **screenshots** in your GitHub repository and upload all screenshots inside it.
+
 
 ## 1️⃣ Register Screen
 
@@ -93,7 +90,7 @@ DIgiLocker/
   <img src="screenshots/register.png" width="250">
 </p>
 
----
+
 
 ## 2️⃣ Home Screen
 
@@ -101,7 +98,7 @@ DIgiLocker/
   <img src="screenshots/home.png" width="250">
 </p>
 
----
+
 
 ## 3️⃣ My Documents Screen
 
@@ -109,7 +106,7 @@ DIgiLocker/
   <img src="screenshots/documents.png" width="250">
 </p>
 
----
+
 
 ## 4️⃣ Document Details Screen
 
@@ -117,7 +114,7 @@ DIgiLocker/
   <img src="screenshots/document_details.png" width="250">
 </p>
 
----
+
 
 ## 5️⃣ Add Document Screen
 
@@ -125,7 +122,6 @@ DIgiLocker/
   <img src="screenshots/add_document.png" width="250">
 </p>
 
----
 
 ## 6️⃣ Profile Screen
 
@@ -133,7 +129,7 @@ DIgiLocker/
   <img src="screenshots/profile.png" width="250">
 </p>
 
----
+
 
 ## 🚀 How to Run the Project
 
@@ -142,7 +138,6 @@ DIgiLocker/
 3. Build the project.
 4. Run the application on an Android Emulator or a physical Android device.
 
----
 
 ## 🎓 Learning Outcome
 
@@ -153,7 +148,7 @@ DIgiLocker/
 - Upload and preview document images.
 - Build a simple document management application.
 
----
+
 
 ## 👩‍💻 Author
 
