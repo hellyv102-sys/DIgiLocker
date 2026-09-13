@@ -1,4 +1,4 @@
-# 📱 DigiLocker Android App
+# DigiLocker Clone Android App
 
 A simple **DigiLocker Android Application** developed using **Kotlin** in **Android Studio** for the **Mobile Application Development (MAD)** subject.
 
