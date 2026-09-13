@@ -1,17 +1,18 @@
 # DigiLocker Clone Android App
 
-A simple **DigiLocker Android Application** developed using **Kotlin** in **Android Studio** for the **Mobile Application Development (MAD)** subject.
-
+A simple **DigiLocker Clone Android Application** developed using **Kotlin** and **XML** in **Android Studio** for the **Mobile Application Development (MAD)** subject. This project is a **student project inspired by the Government of India DigiLocker** and is created for educational and learning purposes.
 
 
 ## 🎯 Aim
 
-To develop a DigiLocker application that allows users to digitally store and manage important personal documents through a simple and user-friendly Android application.
+To develop a DigiLocker Clone Android application that allows users to digitally store, view, and manage important personal documents in a simple and user-friendly interface.
 
 
 ## 📖 Project Overview
 
-DigiLocker is an Android application where users can keep their important documents in one place. Users can view document details, upload document images, and manage documents easily using a clean interface.
+DigiLocker Clone is a simplified Android application inspired by the Government of India DigiLocker. It is developed for educational purposes using Kotlin and XML in Android Studio.
+
+This application allows users to register, view, upload, and manage important personal documents through a simple and user-friendly interface. It demonstrates Android development concepts such as multiple activities, Intents, CardView, ImageView, and XML layouts.
 
 
 
@@ -149,11 +150,10 @@ DIgiLocker/
 - Build a simple document management application.
 
 
-
 ## 👩‍💻 Author
 
 **Name:** Heli Vyas
 
 **Subject:** Mobile Application Development (MAD)
 
-**Project:** DigiLocker Android Application
+**Project:** DigiLocker Clone Android Application
