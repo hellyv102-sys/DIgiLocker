@@ -104,7 +104,7 @@ DIgiLocker/
 ## 3️⃣ My Documents Screen
 
 <p align="center">
-  <img src="screenshots/documents.png" width="250">
+  <img src="screenshots/document.png" width="250">
 </p>
 
 
